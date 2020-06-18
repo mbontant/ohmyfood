@@ -1,0 +1,48 @@
+/* general*/
+header, footer {
+  background-color: red;
+  color: yellow;
+  text-align: center;
+}
+
+/*logo*/
+header {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+/*menus*/
+#menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menunom {
+  border: solid;
+}
+
+/*attente*/
+#attente {
+  display: block;
+  text-align: center;
+  background-color: red;
+  background-position: center;
+}
+
+/*pied de page*/
+#pied {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/*# sourceMappingURL=style.css.map */

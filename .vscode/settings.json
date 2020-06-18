@@ -1,0 +1,53 @@
+{
+    "breadcrums.enabled" : true,
+"debug.toolbarLocation": "floating",
+"editor.cursorBlinking": "smooth",
+"editor.fontsize": 16,
+"editor.fontfamily": "Consolas",
+"editor.fontLigatures": true,
+"editor.formatOnPaste": false,
+"editor.formatOnType": false,
+"editor.formatOnSave": false,
+"terminal.integrated.fontfamily": "Consolas",
+"files.autoSave": "afterDelay",
+"files.autoSaveDelay": 5000,
+"search.showlineNumbers": true,
+"workbench.iconTheme": "material-icon-theme",
+"zenMode.centerLayout": false,
+"editor.renderIndentGuides": false,
+"window.zoomLevel": 1,
+"editor.tabSize": 2,
+"editor.letterSpacing": 0,
+"explorer.confirmDelete": false,
+"workbench.sideBar.location": "right",
+"editor.wordwrap": "on",
+"extensions.ignoreRecommendations": true,
+"editor.wordwrapColumn": 120,
+"editor.suggestSelection": "first",
+"files.exclude":{
+    "**/.classpath":true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+},
+"workbench.colorTheme": "Record",
+"liveSassCompile.settings.formats": [{
+    "format": "expanded",
+    "extensionName": ".css",
+    "savePath": "~/../css/"
+    },
+    {
+    "format": "compressed",
+    "extensionName": ".min.css",
+    "savePath": "~/../css/"
+    }
+],
+"editor.minimap.maxColumn": 200,
+"editor.minimap.scale": 3,
+"editor.minimap.renderCharacters": false,
+"editor.minimap.enabled": false,
+"[javascript]": {
+    "editor.defaultformatter": "esbenp.prettier-vscode"
+},
+}
+

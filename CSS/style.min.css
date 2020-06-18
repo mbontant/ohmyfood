@@ -1,0 +1,2 @@
+header,footer{background-color:red;color:#ff0;text-align:center}header{font-weight:bold;font-size:3em}#menus{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-ms-flex-wrap:wrap;flex-wrap:wrap}.menunom{border:solid}#attente{display:block;text-align:center;background-color:red;background-position:center}#pied{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-left:3%;margin-right:3%}
+/*# sourceMappingURL=style.min.css.map */

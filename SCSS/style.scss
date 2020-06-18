@@ -1,8 +1,12 @@
+$primaire : red;
+$ecrit : yellow;
+
+
 /* general*/
 header, footer
 {
-	background-color : red;
-	color : yellow;
+	background-color : $primaire;
+	color :$ecrit;
 	text-align: center;
 }
 
@@ -30,7 +34,7 @@ font-size: 3em;
 {
 	display: block;
 	text-align: center;
-	background-color: red;
+	background-color: $primaire;
 	background-position: center;
 }
 
