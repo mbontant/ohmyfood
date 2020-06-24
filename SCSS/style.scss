@@ -1,7 +1,20 @@
 @import"variables";
 @import"couleur";
 
-/* general*/
+@font-face {
+	font-family: 'playtimewithhottoddiesobliqRg';
+	src: url('PlaytimeOblique-webfont.eot');
+	src: url('PlaytimeOblique-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('PlaytimeOblique-webfont.woff2') format('woff2'),
+			 url('PlaytimeOblique-webfont.woff') format('woff'),
+			 url('PlaytimeOblique-webfont.ttf') format('truetype'),
+			 url('PlaytimeOblique-webfont.svg#playtimewithhottoddiesobliqRg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+ 
+//general //
 header, footer
 {
 	background-color : $extremite;
@@ -9,14 +22,14 @@ header, footer
 	text-align: center;
 }
 
-/*logo*/
+//logo//
 header
 {
 font-weight: bold;
 font-size: 3em;
 }
 
-/*menus*/
+//menus//
 #menus
 {
 	display: flex;
@@ -40,9 +53,11 @@ font-size: 3em;
 }
 
 
-/*menu la note enchantée*/
+//menu la note enchantée//
 .note
 {
+font-family: 'playtimewithhottoddiesobliqRg',"Comic sans MS", sans-serif;
+font-size: 20px;
 background-color:$lanote;
 color: $lanote_ecrit;
 	a
@@ -55,7 +70,7 @@ text-decoration: none;
 		}
 }
 
-/* menu le chic*/
+// menu le chic//
 .chic
 {
 	background-color:$lechic;
@@ -70,7 +85,7 @@ text-decoration: none;
 		}
 	
 	}
-/*menu le delice*/
+//menu le delice//
 .delice
 {
 	background-color:$ledelice;
@@ -85,7 +100,7 @@ text-decoration: none;
 		}
 	
 	}
-/* menu la palette*/
+// menu la palette//
 .palette
 {
 	background-color:$lapalette;
@@ -100,7 +115,7 @@ text-decoration: none;
 		}
 	
 	}
-/*attente*/
+//attente//
 #attente
 {
 	display: block;
@@ -113,7 +128,7 @@ text-decoration: none;
 	border: -2px -2px 10px black;
 }
 
-/*pied de page*/
+//pied de page//
 #pied
 {
 	display: flex;
