@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACT,WAAW,EAAE,+BAA+B;EAC5C,GAAG,EAAE,kCAAkC;EACvC,GAAG,EAAE,yCAAyC,CAAC,2BAA2B,EACvE,oCAAoC,CAAC,eAAe,EACpD,mCAAmC,CAAC,cAAc,EAClD,kCAAkC,CAAC,kBAAkB,EACrD,gEAAgE,CAAC,aAAa;EACjF,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;AAEnB,AAAA,IAAI,CACJ;EACE,WAAW,EAAE,6DAA6D;EAC1E,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "../SCSS/lanote.scss"
+    ],
+    "names": [],
+    "file": "lanote.css"
+}

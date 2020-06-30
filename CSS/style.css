@@ -1,3 +1,38 @@
+header, footer {
+  background-color: #579C87;
+  color: #F2C74A;
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  font-weight: bold;
+  font-size: 3em;
+  height: 150px;
+  margin-top: -50px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#mention {
+  padding-left: 3%;
+}
+
+#contact {
+  padding-right: 3%;
+}
+
 @font-face {
   font-family: 'playtimewithhottoddiesobliqRg';
   src: url("PlaytimeOblique-webfont.eot");
@@ -6,18 +41,11 @@
   font-style: normal;
 }
 
-header, footer {
-  background-color: #579C87;
-  color: #F2C74A;
+h2 {
   text-align: center;
 }
 
-header {
-  font-weight: bold;
-  font-size: 3em;
-}
-
-#menus {
+.menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,72 +56,75 @@ header {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  width: 80%;
-  height: 1000px;
-  margin-left: 10%;
+  width: 70%;
+  height: 1250px;
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
-.menunom {
-  -webkit-box-shadow: -2px -2px 10px black;
-          box-shadow: -2px -2px 10px black;
-  padding: 10% 5%;
-  width: 30%;
-  height: 200px;
+.menu__nom {
+  border: 1px solid;
+  padding: 20% 5% 20% 5%;
+  width: 300px;
+  height: 150px;
   text-align: center;
 }
 
-.note {
+.menu__lien {
+  text-align: center;
+}
+
+.menu--lanote {
   font-family: 'playtimewithhottoddiesobliqRg',"Comic sans MS", sans-serif;
   font-size: 20px;
   background-color: #FCDFDB;
   color: #997576;
 }
 
-.note a {
+.menu--lanote a {
   text-decoration: none;
 }
 
-.note :hover {
+.menu--lanote :hover {
   color: #997576;
 }
 
-.chic {
+.menu--lechic {
   background-color: #FFF5FE;
 }
 
-.chic a {
+.menu--lechic a {
   text-decoration: none;
 }
 
-.chic :hover {
+.menu--lechic :hover {
   color: #997576;
 }
 
-.delice {
+.menu--ledelice {
   background-color: #F9F9F9;
   color: #997576;
 }
 
-.delice a {
+.menu--ledelice a {
   text-decoration: none;
 }
 
-.delice :hover {
+.menu--ledelice :hover {
   color: #997576;
 }
 
-.palette {
+.menu--palette {
   background-color: #FDFFFD;
   color: #997576;
 }
 
-.palette a {
+.menu--palette a {
   text-decoration: none;
 }
 
-.palette :hover {
+.menu--palette :hover {
   color: #997576;
 }
 
@@ -106,16 +137,9 @@ header {
   color: #F2C74A;
   margin-left: 35%;
   border: -2px -2px 10px black;
-}
-
-#pied {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-left: 3%;
-  margin-right: 3%;
+  padding: 20px 50px 20px 50px;
+  font-size: 2.5em;
+  font-weight: bold;
+  border-radius: 30px;
 }
 /*# sourceMappingURL=style.css.map */
