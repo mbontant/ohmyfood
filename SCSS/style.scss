@@ -11,9 +11,19 @@
 			 url('PlaytimeOblique-webfont.svg#playtimewithhottoddiesobliqRg') format('svg');
 	font-weight: normal;
 	font-style: normal;
-
 }
- 
+@font-face {
+	font-family: 'aliceregular';
+	src: url('Alice-Regular-webfont.eot');
+	src: url('Alice-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('Alice-Regular-webfont.woff2') format('woff2'),
+			 url('Alice-Regular-webfont.woff') format('woff'),
+			 url('Alice-Regular-webfont.ttf') format('truetype'),
+			 url('Alice-Regular-webfont.svg#aliceregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+} 
 //general //
 
 h2
@@ -54,7 +64,7 @@ h2
 //menu la note enchantée//
 .menu--lanote
 {
-font-family: 'playtimewithhottoddiesobliqRg',"Comic sans MS", sans-serif;
+font-family: 'playtimewithhottoddiesobliqRg', Arial, sans-serif;
 font-size: 20px;
 background-color:$lanote;
 color: $lanote_ecrit;
@@ -72,6 +82,7 @@ text-decoration: none;
 .menu--lechic
 {
 	background-color:$lechic;
+	font-family: 'aliceregular', Arial, Helvetica, sans-serif;
 	
 	a
 	{
