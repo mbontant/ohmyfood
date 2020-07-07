@@ -20,9 +20,10 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 80px;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-weight: bold;
-  padding-bottom: 15px;
+  position: fixed;
+  bottom: 0;
 }
 
 #mention {
@@ -33,24 +34,13 @@ footer {
   padding-right: 3%;
 }
 
-@font-face {
-  font-family: 'playtimewithhottoddiesobliqRg';
-  src: url("PlaytimeOblique-webfont.eot");
-  src: url("PlaytimeOblique-webfont.eot?#iefix") format("embedded-opentype"), url("PlaytimeOblique-webfont.woff2") format("woff2"), url("PlaytimeOblique-webfont.woff") format("woff"), url("PlaytimeOblique-webfont.ttf") format("truetype"), url("PlaytimeOblique-webfont.svg#playtimewithhottoddiesobliqRg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'aliceregular';
-  src: url("Alice-Regular-webfont.eot");
-  src: url("Alice-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("Alice-Regular-webfont.woff2") format("woff2"), url("Alice-Regular-webfont.woff") format("woff"), url("Alice-Regular-webfont.ttf") format("truetype"), url("Alice-Regular-webfont.svg#aliceregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 h2 {
   text-align: center;
+}
+
+main {
+  margin-bottom: 20%;
+  font-size: 20px;
 }
 
 .menu {
@@ -65,10 +55,8 @@ h2 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 70%;
-  height: 1250px;
   text-align: center;
-  margin-left: 15%;
-  margin-top: 5%;
+  margin: 0 auto;
 }
 
 .menu__nom {
@@ -77,6 +65,8 @@ h2 {
   width: 300px;
   height: 150px;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .menu__lien {
@@ -84,7 +74,7 @@ h2 {
 }
 
 .menu--lanote {
-  font-family: 'playtimewithhottoddiesobliqRg', Arial, sans-serif;
+  font-family: Lobster, Arial, sans-serif;
   font-size: 20px;
   background-color: #FCDFDB;
   color: #997576;
@@ -92,6 +82,8 @@ h2 {
 
 .menu--lanote a {
   text-decoration: none;
+  font-family: Cabin, Arial, sans-serif;
+  font-weight: bold;
 }
 
 .menu--lanote :hover {
@@ -100,11 +92,15 @@ h2 {
 
 .menu--lechic {
   background-color: #FFF5FE;
-  font-family: 'aliceregular', Arial, Helvetica, sans-serif;
+  font-family: "Croissant One", Arial, Helvetica, sans-serif;
+  font-weight: regular;
+  font-size: 15px;
 }
 
 .menu--lechic a {
   text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
 }
 
 .menu--lechic :hover {
@@ -114,26 +110,32 @@ h2 {
 .menu--ledelice {
   background-color: #F9F9F9;
   color: #997576;
+  font-family: "Dancing Script","Comic sans MS", sans-serif;
 }
 
 .menu--ledelice a {
   text-decoration: none;
+  font-family: McLaren, Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .menu--ledelice :hover {
   color: #997576;
 }
 
-.menu--palette {
+.menu--lapalette {
   background-color: #FDFFFD;
   color: #997576;
+  font-family: Yesteryear,"Comic sans MS", sans-serif;
+  font-size: 20px;
 }
 
-.menu--palette a {
+.menu--lapalette a {
   text-decoration: none;
+  font-family: McLaren, Arial, Helvetica, sans-serif;
 }
 
-.menu--palette :hover {
+.menu--lapalette :hover {
   color: #997576;
 }
 
@@ -144,8 +146,7 @@ h2 {
   background-position: center;
   width: 25%;
   color: #F2C74A;
-  margin-left: 35%;
-  border: -2px -2px 10px black;
+  margin: 0 auto;
   padding: 20px 50px 20px 50px;
   font-size: 2.5em;
   font-weight: bold;

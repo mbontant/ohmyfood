@@ -1,13 +1,73 @@
-@font-face {
-  font-family: 'PlaytimewithhottoddiesobliqRg';
-  src: url("PlaytimeOblique-webfont.eot");
-  src: url("PlaytimeOblique-webfont.eot?#iefix") format("embedded-opentype"), url("PlaytimeOblique-webfont.woff2") format("woff2"), url("PlaytimeOblique-webfont.woff") format("woff"), url("PlaytimeOblique-webfont.ttf") format("truetype"), url("PlaytimeOblique-webfont.svg#playtimewithhottoddiesobliqRg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+header, footer {
+  background-color: #579C87;
+  color: #F2C74A;
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  font-weight: bold;
+  font-size: 3em;
+  height: 150px;
+  margin-top: -50px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  font-size: 1.5em;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+}
+
+#mention {
+  padding-left: 3%;
+}
+
+#contact {
+  padding-right: 3%;
 }
 
 body {
-  font-family: 'PlaytimewithhottoddiesobliqRg', Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  background-color: #FCDFDB;
+  text-align: center;
+}
+
+main {
+  font-family: Lobster, Arial, Helvetica, sans-serif;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  font-size: 30px;
+}
+
+main h1 {
+  font-size: 70px;
+}
+
+table {
+  margin: 0 auto;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+tr {
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(left, #e01010, #e09d0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=lanote.css.map */
