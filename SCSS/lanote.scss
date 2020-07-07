@@ -3,7 +3,8 @@
 body
 {
 	background-color: $lanote;
-	text-align: center;;
+	text-align: center;
+	width: 100%;
 }
 main
 {
@@ -28,10 +29,27 @@ tr
 {
 	padding-bottom: 50px;
 }
+.descriptifplat
+{
+	padding-right: 15%;
+}
 h2
 {
 	font-weight: bold;
+	display: inline-block;
+	position: relative;	
 }
+h2:after,
+h2:before {
+	content: "";
+	position: absolute;
+	height: 10px;
+	width: 260px;
+	top: 50%;
+	right: 100%;
+	background: black;
+}
+h2:after { left: 100%; }
 i
 {
 	font-size: 80px;
@@ -39,3 +57,4 @@ i
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
