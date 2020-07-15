@@ -145,7 +145,7 @@ a {
 }
 
 .menu--ledelice--degrade {
-  background-image: linear-gradient(45deg, #250679, #5ba2fe);
+  background-image: linear-gradient(45deg, #250679, #066aec);
   color: transparent;
   -webkit-background-clip: text;
 }
