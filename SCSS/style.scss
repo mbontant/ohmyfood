@@ -34,31 +34,37 @@ main
 	height: 150px;
 	text-align: center;
 	margin-top: 50px;	
-	margin-bottom: 30px;
+	margin-bottom: 30px; 
 }
+
 .menu__lien
 {
 	text-align: center;
 }
 
+
 //menu la note enchantée//
 .menu--lanote
 {
-font-family: Lobster, Arial, sans-serif;
+font-family: 'Lobster Two', Arial, sans-serif;
 font-size: 20px;
 background-color:$lanote;
 color: $lanote_ecrit;
+transform: scale(1);
+transition-property: transform;
+transition-duration: 400ms;
+}
+.menu--lanote :hover 
+	{
+			transform: scale(1.5);
+	}
 	a
 	{
 text-decoration: none;
 font-family: Cabin, Arial, sans-serif;
 font-weight: bold;
 	}
-		& :hover
-		{
-			color:$lanote_ecrit
-		}
-}
+
 
 // menu le chic//
 .menu--lechic
@@ -66,7 +72,7 @@ font-weight: bold;
 	background-color:$lechic;
 	font-family: "Croissant One", Arial, Helvetica, sans-serif;
 	font-weight: regular;
-	font-size: 15px;
+	font-size: 20px;
 	a
 	{
 text-decoration: none;
@@ -80,23 +86,35 @@ font-size: 30px;
 		}
 	
 	}
+	.menu--lechic--degrade
+	{
+		background-image: linear-gradient(45deg, #C77412, #8f5bfe);
+			color: transparent;
+			-webkit-background-clip: text;
+	}
 //menu le delice//
 .menu--ledelice
 {
 	background-color:$ledelice;
-	color: $lanote_ecrit;
 	font-family: "Dancing Script","Comic sans MS", sans-serif;
 	a
 	{
 text-decoration: none;
 font-family: McLaren, Arial, Helvetica, sans-serif;
 font-weight:bold;
+color: #5ba2fe;
 	}
 		& :hover
 		{
 			color:$lanote_ecrit
 		}
 	
+	}
+	.menu--ledelice--degrade
+	{
+		background-image: linear-gradient(45deg, #250679, #5ba2fe);
+    color: transparent;
+    -webkit-background-clip: text;
 	}
 // menu la palette//
 .menu--lapalette
@@ -104,18 +122,24 @@ font-weight:bold;
 	background-color:$lapalette;
 	color: $lanote_ecrit;
 	font-family: Yesteryear,"Comic sans MS", sans-serif;
-	font-size: 20px;
 	
 	a
 	{
 text-decoration: none;
 font-family: McLaren, Arial, Helvetica, sans-serif;
+color: #67ec0e;
 	}
 		& :hover
 		{
 			color:$lanote_ecrit
 		}
 	
+}
+.menu--lapalette--degrade
+	{
+		background-image: linear-gradient(45deg, #05642a, #67ec0e);
+			color: transparent;
+			-webkit-background-clip: text;
 	}
 //attente//
 #attente
@@ -133,3 +157,63 @@ font-family: McLaren, Arial, Helvetica, sans-serif;
 	border-radius: 30px;
 }
 
+//la note enchantée//
+
+#menu--menu1
+{
+	background-color: $lanote;
+	text-align: center;
+	width: 100%;
+	font-family: 'Lobster Two', Arial, Helvetica, sans-serif;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	font-size: 30px;
+}
+
+#menu--menu1 h1
+{
+	font-size: 70px;
+}
+
+table
+{
+	margin: 0 auto;
+	text-align: justify;
+	padding-bottom: 50px;
+}
+tr
+{
+	padding-bottom: 50px;
+}
+.descriptifplat
+{
+	padding-right: 15%;
+}
+#menu--menu1 h2
+{
+	font-weight: bold;
+	display: inline-block;
+	position: relative;	
+}
+#menu--menu1 h2:after,
+#menu--menu1 h2:before 
+{
+	content: "";
+	position: absolute;
+	height: 10px;
+	width: 260px;
+	top: 50%;
+	right: 100%;
+	background: black;
+}
+#menu--menu1 h2:after 
+{ 
+	left: 100%; 
+}
+i
+{
+	font-size: 80px;
+	background: -webkit-linear-gradient(left, rgb(224, 16, 16), rgb(224, 157, 12));
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

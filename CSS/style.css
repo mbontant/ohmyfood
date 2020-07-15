@@ -16,9 +16,8 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   height: 80px;
   font-size: 1.5em;
   font-weight: bold;
@@ -26,12 +25,19 @@ footer {
   bottom: 0;
 }
 
-#mention {
-  padding-left: 3%;
+.pied {
+  text-decoration: none;
+  font-size: 30px;
+  color: #F2C74A;
 }
 
 #contact {
-  padding-right: 3%;
+  margin-left: 60%;
+}
+
+.tete {
+  text-decoration: none;
+  color: #F2C74A;
 }
 
 h2 {
@@ -74,27 +80,36 @@ main {
 }
 
 .menu--lanote {
-  font-family: Lobster, Arial, sans-serif;
+  font-family: 'Lobster Two', Arial, sans-serif;
   font-size: 20px;
   background-color: #FCDFDB;
   color: #997576;
-}
-
-.menu--lanote a {
-  text-decoration: none;
-  font-family: Cabin, Arial, sans-serif;
-  font-weight: bold;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 400ms;
+          transition-duration: 400ms;
 }
 
 .menu--lanote :hover {
-  color: #997576;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+  font-family: Cabin, Arial, sans-serif;
+  font-weight: bold;
 }
 
 .menu--lechic {
   background-color: #FFF5FE;
   font-family: "Croissant One", Arial, Helvetica, sans-serif;
   font-weight: regular;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .menu--lechic a {
@@ -107,9 +122,14 @@ main {
   color: #997576;
 }
 
+.menu--lechic--degrade {
+  background-image: linear-gradient(45deg, #C77412, #8f5bfe);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 .menu--ledelice {
   background-color: #F9F9F9;
-  color: #997576;
   font-family: "Dancing Script","Comic sans MS", sans-serif;
 }
 
@@ -117,26 +137,39 @@ main {
   text-decoration: none;
   font-family: McLaren, Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color: #5ba2fe;
 }
 
 .menu--ledelice :hover {
   color: #997576;
 }
 
+.menu--ledelice--degrade {
+  background-image: linear-gradient(45deg, #250679, #5ba2fe);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 .menu--lapalette {
   background-color: #FDFFFD;
   color: #997576;
   font-family: Yesteryear,"Comic sans MS", sans-serif;
-  font-size: 20px;
 }
 
 .menu--lapalette a {
   text-decoration: none;
   font-family: McLaren, Arial, Helvetica, sans-serif;
+  color: #67ec0e;
 }
 
 .menu--lapalette :hover {
   color: #997576;
+}
+
+.menu--lapalette--degrade {
+  background-image: linear-gradient(45deg, #05642a, #67ec0e);
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 #attente {
@@ -151,5 +184,61 @@ main {
   font-size: 2.5em;
   font-weight: bold;
   border-radius: 30px;
+}
+
+#menu--menu1 {
+  background-color: #FCDFDB;
+  text-align: center;
+  width: 100%;
+  font-family: 'Lobster Two', Arial, Helvetica, sans-serif;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  font-size: 30px;
+}
+
+#menu--menu1 h1 {
+  font-size: 70px;
+}
+
+table {
+  margin: 0 auto;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+tr {
+  padding-bottom: 50px;
+}
+
+.descriptifplat {
+  padding-right: 15%;
+}
+
+#menu--menu1 h2 {
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+}
+
+#menu--menu1 h2:after,
+#menu--menu1 h2:before {
+  content: "";
+  position: absolute;
+  height: 10px;
+  width: 260px;
+  top: 50%;
+  right: 100%;
+  background: black;
+}
+
+#menu--menu1 h2:after {
+  left: 100%;
+}
+
+i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(left, #e01010, #e09d0c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */
