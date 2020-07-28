@@ -133,7 +133,7 @@ a {
 
 .menu--ledelice a {
   text-decoration: none;
-  font-family: McLaren, Arial, Helvetica, sans-serif;
+  font-family: "McLaren", Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #5ba2fe;
 }
@@ -149,13 +149,13 @@ a {
 }
 
 .menu--lapalette h2 {
-  font-family: Yesteryear,"Comic sans MS", sans-serif;
+  font-family: "Yesteryear", Arial, sans-serif;
   font-size: 42px;
 }
 
 .menu--lapalette a {
   text-decoration: none;
-  font-family: McLaren, Arial, Helvetica, sans-serif;
+  font-family: "McLaren", Arial, Helvetica, sans-serif;
   color: #67ec0e;
 }
 
