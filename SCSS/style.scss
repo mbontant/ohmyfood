@@ -50,11 +50,14 @@ transition-duration: 400ms;
 //menu la note enchantée//
 .menu--lanote
 {
-font-family: 'Lobster Two', Arial, sans-serif;
-font-size: 20px;
 background-color:$lanote;
-color: $lanote_ecrit;
 
+	h2
+	{
+		font-family: "Lobster Two", Arial, sans-serif;
+		font-size: 30px;
+		color: $lanote_ecrit;
+	}
 	a
 	{
 font-family: Cabin, Arial, sans-serif;
@@ -85,8 +88,12 @@ font-size: 20px;
 .menu--ledelice
 {
 	background-color:$ledelice;
-	font-family: "Dancing Script","Comic sans MS", sans-serif;
-	font-size: 18px;
+	h2
+	{
+		font-family: "Dancing Script","Comic sans MS", sans-serif;
+		font-size: 32px;
+	}
+	
 	a
 	{
 text-decoration: none;
@@ -107,8 +114,11 @@ color: #5ba2fe;
 .menu--lapalette
 {
 	background-color:$lapalette;
-	color: $lanote_ecrit;
-	font-family: Yesteryear,"Comic sans MS", sans-serif;
+	h2
+	{
+		font-family: Yesteryear,"Comic sans MS", sans-serif;
+		font-size: 42px;
+	}
 	
 	a
 	{
@@ -120,7 +130,7 @@ color: #67ec0e;
 }
 .menu--lapalette--degrade
 	{
-		background-image: linear-gradient(45deg, #05642a, #67ec0e);
+		background-image: linear-gradient(45deg, #013816, #68fb06);
 			color: transparent;
 			-webkit-background-clip: text;
 	}

@@ -92,9 +92,12 @@ a {
 }
 
 .menu--lanote {
-  font-family: 'Lobster Two', Arial, sans-serif;
-  font-size: 20px;
   background-color: #FCDFDB;
+}
+
+.menu--lanote h2 {
+  font-family: "Lobster Two", Arial, sans-serif;
+  font-size: 30px;
   color: #997576;
 }
 
@@ -121,8 +124,11 @@ a {
 
 .menu--ledelice {
   background-color: #F9F9F9;
+}
+
+.menu--ledelice h2 {
   font-family: "Dancing Script","Comic sans MS", sans-serif;
-  font-size: 18px;
+  font-size: 32px;
 }
 
 .menu--ledelice a {
@@ -140,8 +146,11 @@ a {
 
 .menu--lapalette {
   background-color: #FDFFFD;
-  color: #997576;
+}
+
+.menu--lapalette h2 {
   font-family: Yesteryear,"Comic sans MS", sans-serif;
+  font-size: 42px;
 }
 
 .menu--lapalette a {
@@ -151,7 +160,7 @@ a {
 }
 
 .menu--lapalette--degrade {
-  background-image: linear-gradient(45deg, #05642a, #67ec0e);
+  background-image: linear-gradient(45deg, #013816, #68fb06);
   color: transparent;
   -webkit-background-clip: text;
 }
