@@ -46,7 +46,6 @@ h2 {
 
 main {
   margin-bottom: 20%;
-  font-size: 20px;
 }
 
 .menu {
@@ -65,7 +64,7 @@ main {
   margin: 0 auto;
 }
 
-.menu__nom {
+.menu_nom {
   border: 1px solid;
   padding: 20% 5% 20% 5%;
   width: 300px;
@@ -75,15 +74,13 @@ main {
   margin-bottom: 30px;
 }
 
-.menu__lien {
-  text-align: center;
+a :hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
-.menu--lanote {
-  font-family: 'Lobster Two', Arial, sans-serif;
-  font-size: 20px;
-  background-color: #FCDFDB;
-  color: #997576;
+a {
+  text-decoration: none;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition-property: -webkit-transform;
@@ -94,35 +91,29 @@ main {
           transition-duration: 400ms;
 }
 
-.menu--lanote :hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+.menu--lanote {
+  font-family: 'Lobster Two', Arial, sans-serif;
+  font-size: 20px;
+  background-color: #FCDFDB;
+  color: #997576;
 }
 
-a {
-  text-decoration: none;
+.menu--lanote a {
   font-family: Cabin, Arial, sans-serif;
-  font-weight: bold;
 }
 
 .menu--lechic {
   background-color: #FFF5FE;
   font-family: "Croissant One", Arial, Helvetica, sans-serif;
-  font-weight: regular;
-  font-size: 20px;
 }
 
 .menu--lechic a {
   text-decoration: none;
   font-family: 'Playfair Display', serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
-.menu--lechic :hover {
-  color: #997576;
-}
-
-.menu--lechic--degrade {
+.menu--lechic .menu--lechic--degrade {
   background-image: linear-gradient(45deg, #C77412, #8f5bfe);
   color: transparent;
   -webkit-background-clip: text;
@@ -131,6 +122,7 @@ a {
 .menu--ledelice {
   background-color: #F9F9F9;
   font-family: "Dancing Script","Comic sans MS", sans-serif;
+  font-size: 18px;
 }
 
 .menu--ledelice a {
@@ -138,10 +130,6 @@ a {
   font-family: McLaren, Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #5ba2fe;
-}
-
-.menu--ledelice :hover {
-  color: #997576;
 }
 
 .menu--ledelice--degrade {
@@ -162,10 +150,6 @@ a {
   color: #67ec0e;
 }
 
-.menu--lapalette :hover {
-  color: #997576;
-}
-
 .menu--lapalette--degrade {
   background-image: linear-gradient(45deg, #05642a, #67ec0e);
   color: transparent;
@@ -177,13 +161,35 @@ a {
   text-align: center;
   background-color: #579C87;
   background-position: center;
-  width: 25%;
   color: #F2C74A;
   margin: 0 auto;
   padding: 20px 50px 20px 50px;
   font-size: 2.5em;
   font-weight: bold;
   border-radius: 30px;
+}
+
+span :after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 900ms infinite;
+  animation: ellipsis steps(4, end) 900ms infinite;
+  content: "\2026";
+  /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 100em;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 100em;
+  }
 }
 
 #menu--menu1 {
