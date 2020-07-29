@@ -256,3 +256,11 @@ i
 	width: 390px;
   height: 50px;
 }
+.soulign{
+  background: linear-gradient(to top, black 0%, black 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+  transition: background-size .5s;
+}
+
+.soulign:hover {
+  background-size: 100% 100%;
+}
