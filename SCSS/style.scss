@@ -35,7 +35,7 @@ main
 	margin-top: 50px;	
 	margin-bottom: 30px; 	
 }
-.menu_nom:hover 
+a:hover 
 	{
 			transform: scale(1.15);
 	}
@@ -263,4 +263,33 @@ i
 
 .soulign:hover {
   background-size: 100% 100%;
+}
+
+//responsive//
+@media all and (max-width: 425px)
+{
+body
+{
+	width: 100%;
+}
+.menu
+{
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	text-align: center;
+	//border: 1px solid;//
+	margin: 0 auto;;
+}	
+.menu_nom
+{
+	margin-bottom: 0;
+	height: 180px;
+}
+#attente
+{
+	margin-top: 15px;
+	margin-bottom: 25px;
+	font-size: 1em;
+}
 }

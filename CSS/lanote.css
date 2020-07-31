@@ -40,6 +40,41 @@ footer {
   color: #F2C74A;
 }
 
+@media all and (max-width: 768px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 20px;
+    height: 43px;
+  }
+  #contact {
+    margin-left: 0%;
+  }
+  .pied {
+    font-size: 20px;
+    margin-top: -25px;
+  }
+  #mention {
+    padding-top: 25px;
+  }
+  .marge1 {
+    margin-top: -25px;
+  }
+  header {
+    font-size: 1.7em;
+    width: 100%;
+    height: 100px;
+  }
+  h1 {
+    padding-top: 15px;
+  }
+}
+
 body {
   background-color: #FCDFDB;
   text-align: center;

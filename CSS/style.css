@@ -40,6 +40,41 @@ footer {
   color: #F2C74A;
 }
 
+@media all and (max-width: 768px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 20px;
+    height: 43px;
+  }
+  #contact {
+    margin-left: 0%;
+  }
+  .pied {
+    font-size: 20px;
+    margin-top: -25px;
+  }
+  #mention {
+    padding-top: 25px;
+  }
+  .marge1 {
+    margin-top: -25px;
+  }
+  header {
+    font-size: 1.7em;
+    width: 100%;
+    height: 100px;
+  }
+  h1 {
+    padding-top: 15px;
+  }
+}
+
 h2 {
   text-align: center;
 }
@@ -74,7 +109,7 @@ main {
   margin-bottom: 30px;
 }
 
-.menu_nom:hover {
+a:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
@@ -291,5 +326,31 @@ i {
 
 .soulign:hover {
   background-size: 100% 100%;
+}
+
+@media all and (max-width: 425px) {
+  body {
+    width: 100%;
+  }
+  .menu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .menu_nom {
+    margin-bottom: 0;
+    height: 180px;
+  }
+  #attente {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
