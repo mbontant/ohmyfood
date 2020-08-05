@@ -352,5 +352,39 @@ i {
     margin-bottom: 25px;
     font-size: 1em;
   }
+  tr {
+    display: block;
+    text-align: center;
+  }
+  tbody {
+    display: block;
+  }
+  td {
+    display: block;
+    text-align: center;
+  }
+  table {
+    width: 80%;
+  }
+  #menu--menu1 h1 {
+    font-size: 45px;
+  }
+  #menu--menu1 h2 {
+    text-align: center;
+  }
+  #menu--menu1 {
+    font-size: 15px;
+    padding-left: 30px;
+    width: 90%;
+  }
+  .prelude {
+    width: 270px;
+  }
+  .orgue {
+    width: 270px;
+  }
+  .final {
+    width: 270px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
