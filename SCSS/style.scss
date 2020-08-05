@@ -308,7 +308,7 @@ td
 }
 table
 {
-	width:80%;
+	width:90%;
 }
 #menu--menu1 h1
 {
@@ -317,6 +317,7 @@ font-size: 45px;
 #menu--menu1 h2
 {
 	text-align: center;
+	text-decoration: underline;
 }
 #menu--menu1
 {
@@ -324,16 +325,9 @@ font-size: 45px;
 	padding-left: 30px;
 	width:90%;
 }
-.prelude
+.prelude,.orgue,.final
 {
-	width:290px;
+	display:none;
 }
-.orgue
-{
-	width:300px;
-}
-.final
-{
-	width:270px;
-}
+
 }

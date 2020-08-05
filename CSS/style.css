@@ -364,27 +364,22 @@ i {
     text-align: center;
   }
   table {
-    width: 80%;
+    width: 90%;
   }
   #menu--menu1 h1 {
     font-size: 45px;
   }
   #menu--menu1 h2 {
     text-align: center;
+    text-decoration: underline;
   }
   #menu--menu1 {
     font-size: 15px;
     padding-left: 30px;
     width: 90%;
   }
-  .prelude {
-    width: 290px;
-  }
-  .orgue {
-    width: 300px;
-  }
-  .final {
-    width: 270px;
+  .prelude, .orgue, .final {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
